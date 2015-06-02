@@ -27,7 +27,7 @@ public class Imc {
     }
     
      
-    public Imc (float a, float p ){
+    public Imc (float p, float a){
     peso=p;
     altura=a;
     
