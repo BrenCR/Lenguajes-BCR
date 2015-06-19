@@ -27,11 +27,11 @@ d1.setNombre("Flipper");
 
 ComportamientoRuido animales[]=new ComportamientoRuido[4];
 animales[0]=p1;
-animales[1]=L1
+
 animales[2]=L2;
 animales[3]=d1;
 for(ComportamientoRuido algo:animales) {
-    System.out.printl (algo.hacerRuido());
+    System.out.println (algo.hacerRuido());
     
 }
         

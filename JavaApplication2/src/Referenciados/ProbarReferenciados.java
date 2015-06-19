@@ -16,9 +16,7 @@ public class ProbarReferenciados {
      */
     public static void main(String[] args) {
         Integer entero=new Integer("hola");
-        float flotante=new float ("7.8");
-        float operacion=entero+flotante;
-        System.out.println(operacion);
+
        
     }
     

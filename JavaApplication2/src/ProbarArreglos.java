@@ -22,7 +22,7 @@ public class ProbarArreglos {
        String hola= "hola";
        
        for (int i=0; i<x.length;i++){
-           System.out.println("este elemento tiene un valor de:"+x[i]};
+           System.out.println("este elemento tiene un valor de:"+x[i]);
            
        }
    

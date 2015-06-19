@@ -3,19 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Referenciados;
+package miprimeraexcepcion;
 
 /**
  *
  * @author T-107
  */
-public class ProbarString {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-      
+public class ValidarEdad {
+    public static void validar(int edad)throws MenordeEdadException{
+        if(edad<18)throw new MenordeEdadException();
+        
     }
     
 }
