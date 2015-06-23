@@ -9,21 +9,16 @@ package encapsulamiento;
 public class Usuario {
    private String nombre;
    private int edad;
+   private String email;
+   private Direccion direccion;
    
-   public void setNombre(String nombre){
-       this.nombre=nombre;
-   }
+  
+  
    
-   public void setEdad(int edad){
-       this.edad=edad;
-   }
-       public String getNombre() {
-           return nombre;
-       }
-       public int getEdad(){
-           return edad;
-       }
-}
+  
+   
+
+
        
        
        
