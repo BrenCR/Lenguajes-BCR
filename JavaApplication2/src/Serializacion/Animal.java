@@ -9,12 +9,27 @@ package Serializacion;
  *
  * @author T-107
  */
-public class Animal {
-    
-}
-
 import java.io.*;
-public class Animal{
-String nombre;
-boolean  carnivoro;
+public class Animal implements Serializable{
+    
+
+
+private String nombre;
+private boolean  carnivoro;
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public boolean isCarnivoro() {
+        return carnivoro;
+    }
+
+    public void setCarnivoro(boolean carnivoro) {
+        this.carnivoro = carnivoro;
+    }
 }

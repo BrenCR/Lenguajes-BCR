@@ -14,11 +14,14 @@ public class InterfazCompresora {
         //primero creamos un animal
         Animal a=new Animal();
         a.setNombre("Leon");
-        a.setCarnivoro("true");
+        a.setCarnivoro(true);
         ModeloPersistenciaAnimal modelo=new ModeloPersistenciaAnimal();
         try{
             modelo.guardar(a);
             
+        } catch (Exception ex){
+            System.out.println(ex.getMessage());
         }
     }
+    
 }
